@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}Мой сайт{% endblock %}</title>
+</head>
+
+<link rel="stylesheet" href="styles.css">
+
+<script>
+  function changeBackground() {
+    const card = document.querySelector('.card');
+    const currentColor = card.style.background;
+    if (currentColor.includes('rgb(240, 187, 227)') || currentColor.includes('#f0bbe3')) {
+        card.style.background = '#c4f3ff'; // Меняем на голубой
+    } else {
+        card.style.background = '#f0bbe3'; // Меняем на розовый
+    }
+  }
+</script>
+
+<body>
+  <navbar class="nav"> 
+    <p>Информационная страница обо мне</p>
+  </navbar>
+  <h1>Дятлов Андрей Олегович</h1>
+  <div class="card">
+    <button id="change-color-button" onclick="changeBackground()">Изменить цвет фона</button>
+    <a href="web2.html" class="button">Подробная информация</a>
+    <img src="images/image2.jpg" alt="Изображение" class="card-img">
+    <h4 class="card-header">Личная информация</h4>
+    <div class="card-body" style="text-align: left;">
+      <h5 class="card-title" style="margin: 15px 0;">Дата рождения: 14.07.2005</h5>
+      <h5 class="card-title">Место рождения: г. Нижний Новгород</h5>
+      <h5 class="card-title">Род занятий: Студент</h5>
+      <h5 class="card-title">
+        Образование: 
+        <ul>
+            <li><a href="https://school48nnov.edusite.ru" target="_blank">МБОУ "Школа №48"(2012-2023)</a></li>
+            <li><a href="https://nnov.hse.ru" target="_blank">НИУ ВШЭ(2023-2027)</a></li>
+        </ul>
+      </h5>
+      <h5 class="card-title">
+        Увлечения: 
+        <ul>
+            <li>Программирование</li>
+            <li>Музыка</li>
+            <li>Спорт</li>
+            <li>Видео игры</li>
+        </ul>
+      </h5>
+	</div>
+  <footer class="footer">
+    <p>Данная страница сделана в рамках курса по web разработке</p>
+  </footer>
+</body>

@@ -1,0 +1,372 @@
+a {
+    color: #072164;
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 60px;
+    font-weight: normal;
+    border-bottom: 1px solid #bbb;
+    padding: 0 0 20px 0;
+    background-color: #b2f5c9;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.5s;
+    overflow: hidden;
+
+}
+
+.footer {
+  position: fixed; /* Подвал как приклеенный */
+  bottom: 0; /* Фиксация снизу */
+  left: 0; /* К началу слева */
+  right: 0; /* Без отступов справа */
+  height: 50px; /* Задаем высоту */
+  padding: 0 0 1px 0;
+  background: #141414;
+  color: #fff;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  left: 0; /* К началу слева */
+  right: 0; /* Без отступов справа */
+  display: flex;
+  background-color: #1d1c1c;
+  color: #fff;
+  
+}
+
+body {
+  background: url('images/image1.jpg') center/cover no-repeat fixed;
+
+}
+
+.card {
+  background: rgb(196, 243, 255);
+  border-radius: 24px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 1024px;
+  height: 512px;
+  margin: 350px;
+  margin-top: 150px;
+  position: relative;
+}
+
+.card-header{
+  margin-top: -265px;
+  margin-left: 30%;
+  top: 0;
+}
+
+.card-body {
+  width: 524px;
+  height: 212px;
+  margin-left: 30%;
+  top: 0;
+}
+
+.card img {
+  width: 25%;        
+  height: 55%;      
+  object-fit: cover; 
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.card-img {
+  overflow: hidden;
+}
+
+
+.card-img:hover {
+  transform: scale(1.1);
+}
+
+h1:hover {
+  background-color: #141414;
+  color: #f7f7f7;
+  transform: scale(1.1);
+}
+
+.footer p {
+  text-align: center;
+  font-size: 21px;
+}
+.nav p {
+  text-align: center;
+  font-size: 21px;
+}
+.card h4 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.card h5 {
+  font-size: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+.button2 {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+
+.card button{
+  margin-top: 300px;
+  margin-left: 10px;
+  position: absolute;
+  object-fit: cover; 
+}
+
+.card .button{
+  margin-top: 360px;
+  margin-left: 10px;
+  position: absolute;
+  object-fit: cover; 
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button2:hover {
+  transform: scale(1.05);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 1500px) {
+  .card {
+    background: rgb(196, 243, 255);
+    border-radius: 24px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 924px;
+    height: 512px;
+    margin: 300px;
+    margin-top: 150px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+  .button {
+    padding: 15px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+ }
+
+@media (max-width: 1350px) {
+  .card {
+    background: rgb(196, 243, 255);
+    border-radius: 24px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 824px;
+    height: 512px;
+    margin: 250px;
+    margin-top: 150px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+  .button {
+    padding: 15px 30px;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+ } 
+
+@media (max-width: 1150px) {
+  .card {
+    background: rgb(196, 243, 255);
+    border-radius: 24px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 724px;
+    height: 512px;
+    margin: 200px;
+    margin-top: 150px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+  .button {
+    padding: 15px 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+ }  
+
+@media (max-width: 1024px) {
+  .card {
+    background: rgb(196, 243, 255);
+    border-radius: 24px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 624px;
+    height: 500px;
+    margin: 150px;
+    margin-top: 150px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+  .button {
+    padding: 15px 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .card h4 {
+  font-size: 20px;
+  }
+  .card-body h5 {
+    font-size: 15px;
+  }
+  .card-header{
+    margin-top: -200px;
+    margin-left: 30%;
+    top: 0;
+  }
+ }  
+
+@media (max-width: 768px) {
+  .card {
+    background: rgb(196, 243, 255);
+    border-radius: 24px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 624px;
+    height: 500px;
+    margin: 50px;
+    margin-top: 150px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+    transition: transform 0.2s;
+  }
+  .button {
+    padding: 15px 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+    transition: transform 0.2s;
+  }
+  .card button{
+    margin-top: 300px;
+    margin-left: 10px;
+    position: absolute;
+    object-fit: cover; 
+  }
+  .card h4 {
+  font-size: 20px;
+  }
+  .card-body h5 {
+    font-size: 15px;
+  }
+ }  
